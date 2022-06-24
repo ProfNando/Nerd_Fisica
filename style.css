@@ -9,13 +9,23 @@ header{
 header > p{
     padding: 10px;
 }
+p{
+    padding: 20px;
+}
+
+nav {
+    padding: 0px;
+    display: inline;
+    text-align: left;
+    width: 20px;
+}
 nav > ul > li{
     
     display: inline-block;
-    padding: 0px;
+    padding-right: 25px;
     text-align: left;
-    
-    
+    padding-top: 5px;
+       
     
 }
 
@@ -23,13 +33,39 @@ main{
     margin:0px 20%;
     background-color: aqua;
 }
+article{
+    
+    
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: aquamarine;
+    max-width: 0px;
+
+}
+
+article > p{
+    width: 20px;
+    height: 20px;
+}
+.a{
+    width: 20px;
+    height: 20px;
+}
+
+ img{
+  max-width: 100%;
+  display: inline-block;
+}
 
 .direito{
     text-align: right;
+
 }
+
+
 
 footer{
     text-align: center;
-    padding: 15px;
     background-color: rgba(147, 56, 231, 0.5);
 }
